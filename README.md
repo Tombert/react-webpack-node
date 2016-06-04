@@ -176,7 +176,7 @@ to set up nodejs
 3. Follow [this](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-12-04) tutorial to install mongodb
 4. git clone this repo
 ```bash
-npm install
+npm run setup 
 sudo npm install pm2 -g
 pm2 start server/index.js
 pm2 startup ubuntu
